@@ -8,11 +8,11 @@ module top_module (
     wire w3;
     wire w4;
    
-    assign w1 = p2c&p2d;
-    assign w2 = p2a&p2b;
+    assign w1 = p2c & p2d;
+    assign w2 = p2a & p2b;
     assign p2y = w1 | w2;
     assign w3 = p1a & p1c & p1b;
-    assign w4 = p1f & p1e &p1d ; 
+    assign w4 = p1f & p1e & p1d; 
     assign p1y = w3 | w4;
     
 endmodule

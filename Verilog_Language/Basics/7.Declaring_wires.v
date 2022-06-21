@@ -10,9 +10,10 @@ module top_module(
     wire w2;
     wire w3;
     
-    assign w1 = a&b;
-    assign w2 = c&d;
-    assign w3 = w1|w2;
+    assign w1 = a & b;
+    assign w2 = c & d;
+    assign w3 = w1 | w2;
     assign out = w3;
-    assign out_n = ~w3;
+    assign out_n = ~w3;  
+    
 endmodule
